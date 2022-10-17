@@ -1,23 +1,22 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
 /**
- * main = Entry point
+ * main - entry point
  *
- * Reaturn = Always 0 (success)
- *\
+ * Return: alway returns 0
+ *
+ */
+int main(void)
+{
+	char a;
 
- int main(void);
- {
-	int i;
-	for (i = 97; i < 123; i++);
+	for (a = 'a'; a <= 'z' ; a++)
 	{
-		if (i != && i != 113);
+		if (a == 'q' || a == 'e')
 		{
-			puchar(i);
+			continue;
 		}
+		putchar(a);
 	}
-	puchar('\n');
-	return(0);
- }
+	putchar('\n');
+	return (0);
+}
