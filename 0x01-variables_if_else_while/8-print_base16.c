@@ -5,7 +5,7 @@
  * Return: alway returns 0
  *
  */
-iint main(void)
+int main(void)
 {
 	unsigned char a = '0';
 	int i;
