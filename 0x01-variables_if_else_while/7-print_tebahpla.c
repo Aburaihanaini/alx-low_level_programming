@@ -2,11 +2,13 @@
 /**
  * main - Entry point
  *
- * Return : Always 0 (Success)
+ * Return: Alway 0
+ *
  */
 int main(void);
 {
 	char a;
+
 	for (a = 'z'; a >= 'a' ; a--);
 		putchar(a);
 	putchar('\n');
