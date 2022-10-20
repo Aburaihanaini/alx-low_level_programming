@@ -1,17 +1,15 @@
-#iinclude "main.h"
-
+#include "main.h"
 /**
- * print_alphabet - Prints the alphabet in lowercase.
+ * _isupper - checks if uppercase
+ * @c: character to check
  *
- * Return: Always 0 (Success)
+ * Return: gives 1 or 0
  */
-void print_alphabet(void)
+int _isupper(int c)
 {
-	int i;
-
-	for (i = 97; i <= 122; i++)
+	if (c >= 'A' && c <= 'Z')
 	{
-		_putchar(i);
+		return (1);
 	}
-	_putchar('\n');
+	return (0);
 }
